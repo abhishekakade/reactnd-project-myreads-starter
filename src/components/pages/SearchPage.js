@@ -16,7 +16,7 @@ class SearchPage extends Component {
   componentDidMount() {
     BooksAPI.getAll()
     .then(res => {
-      console.log(res);
+      // console.log(res);
       this.setState({ books: res });
     });
   }
@@ -40,7 +40,7 @@ class SearchPage extends Component {
 
     BooksAPI.search(this.state.query)
     .then(res => {
-      console.log(res);
+      // console.log(res);
       if(res.error) {
         return this.setState({ results: [] });
       }
@@ -51,7 +51,7 @@ class SearchPage extends Component {
           let filteredBooks = booksToBeFiltered.filter(B => B.id === b.id);
           
           if(filteredBooks[0]) {
-            console.log("books found!", filteredBooks[0]);
+            // console.log("books found!", filteredBooks[0]);
             b.shelf = filteredBooks[0].shelf;
           }
 
