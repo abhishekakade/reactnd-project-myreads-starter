@@ -188,7 +188,7 @@ button:active {
 
 .book-authors {
   font-weight: bold;
-  color: #888;
+  color: #666666;
 }
 
 .book-top {
@@ -204,7 +204,7 @@ button:active {
   bottom: -10px;
   width: 40px;
   height: 40px;
-  border: 2px solid #888888;
+  /* border: 2px solid #222222; */
   border-radius: 50%;
   /* background: #60ac5d; */
   background: #333333;
@@ -213,7 +213,7 @@ button:active {
   background-position: center;
   background-size: 20px;
   /* box-shadow: 0 3px 6px rgba(0,0,0,0.5), 0 3px 6px rgba(0,0,0,0.5); */
-  box-shadow: 0 0 10px 3px #000000, 0 0 10px 1px rgba(255,255,255,0.2) inset;
+  /* box-shadow: 0 0 10px 3px #000000, 0 0 10px 1px rgba(255,255,255,0.2) inset; */
 }
 
 .book-shelf-changer select {
@@ -225,8 +225,8 @@ button:active {
 
 .book-shelf-changer select option {
   font-size: 1.1em;
-  background: #555555;
-  color: #cccccc;
+  background: #444444;
+  color: #dddddd;
 }
 
 .book-shelf-changer select option:hover {
@@ -245,7 +245,7 @@ button:active {
 .book-cover {
   background-repeat: no-repeat;
   box-shadow: 0 6px 12px rgba(0,0,0,0.5), 0 6px 12px rgba(0,0,0,0.5);
-  box-shadow: 0 0 10px 3px #bbb;
+  /* box-shadow: 0 0 10px 3px #bbb; */
   background: #eee;
   display: block;
   margin: auto;
